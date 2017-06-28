@@ -1,0 +1,12 @@
+
+platform :ios, '8.0'
+
+target 'GitTest' do
+
+  use_frameworks!
+
+  target 'GitTestTests' do
+    pod 'MJExtension', '~> 3.0.13'
+  end
+
+end
